@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/logito.jpg" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+    <title>ABAC</title>
+    <style>
+        body {
+            background-color: #f5f6da;
+            color: #573e16;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        main {
+            max-width: 1140px;
+            margin: 0 auto;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            background-color: #d7dcc9;
+        }
+
+        h2,
+        h3,
+        h5 {
+            color: #0a4237;
+        }
+
+        .card {
+            border: 1px solid #b38232;
+            box-shadow: 0 4px 8px rgba(8, 71, 139, 0.05);
+        }
+
+        .card-title {
+            color: #8e8735;
+        }
+
+        .btn-primary {
+            background-color: #0a4237;
+            border-color: #0a4237;
+        }
+
+        .btn-primary:hover {
+            background-color: #b38232;
+            border-color: #b38232;
+        }
+
+        .btn-warning {
+            background-color: #ffc107;
+            border-color: #ffc107;
+        }
+
+        .btn-warning:hover {
+            background-color: #e0a800;
+            border-color: #d39e00;
+        }
+
+        .nav-link {
+            color: #3f3d3e;
+        }
+
+        .nav-link.active {
+            color: #b38232 !important;
+        }
+
+        .navbar-brand img {
+            max-height: 60px;
+        }
+
+        .navbar {
+            border-bottom: 2px solid #d4af37;
+        }
+
+        .footer-logo {
+            max-width: 180px;
+        }
+
+        .footer-icon {
+            color: #d4af37;
+        }
+
+        .footer-social a {
+            text-decoration: none;
+            color: #3f3d3e;
+        }
+
+        .footer-social a:hover {
+            color: #b38232;
+        }
+
+        .footer-gallery img {
+            transition: transform 0.3s ease;
+        }
+
+        .footer-gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .section-divider {
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(to right, #d4af37, #b38232, #d4af37);
+            margin: 30px 0;
+            border-radius: 3px;
+        }
+
+        footer {
+            background-color: #ffffff;
+            color: #573e16;
+            border-top: 4px solid #d4af37;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light py-3" style="border-bottom: 2px solid #d4af37;">
+            <div class="container">
+                <div class="col-md-4 mb-4">
+                    <img src="img/abaclogo.png" alt="Logo ABAC" class="footer-logo mb-3" />
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#somos">¿Quiénes Somos?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#productos">Nuestros trabajos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="https://drive.google.com/file/d/1IoL539o_ehSPzG1hx_zH3KCos416VN0F/view"
+                                target="_blank">Arancel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Eligenos">Elígenos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="section-divider"></div>
+
+    <main style="color: #573e16; padding-top: 40px; padding-bottom: 40px; background-color: #d7dcc9;">
+        <div class="container">
+
+            <!-- ¿Quiénes somos? -->
+            <div class="card shadow-sm mb-5" style="background-color: #e8ebde;" id="somos">
+                <div class="card shadow-sm mb-4" style="background-color: #c7d2c6;">
+                    <h3 class="text-center py-3 mb-0" style="color: #0a4237;">¿Quiénes somos?</h3>
+                </div>
+                <div class="card-body" style="color: #573e16;">
+                    <div class="text-center mb-4" style="font-size: 1.05rem;">
+                        <p>
+                            Somos un <strong>Laboratorio Dental</strong> ubicado en <strong>Temuco</strong>,
+                            especializado en <strong>prótesis fijas y removibles.</strong>
+                        </p>
+                        <p>
+                            Somos un equipo <strong>nuevo</strong>, con la <strong>capacitación, tecnología y
+                                compromiso</strong>
+                            necesarios para ofrecer trabajos de <strong>alta calidad</strong>. Colaboramos con
+                            <strong>odontólogos</strong>, garantizando soluciones <strong>precisas, estéticas</strong> y
+                            con
+                            <strong>entregas responsables</strong>, buscando siempre la <strong>confianza y
+                                satisfacción</strong> de
+                            profesionales y pacientes.
+                        </p>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <!-- Equipo -->
+                        <div class="col-md-6 mb-4">
+                            <div class="card h-100 shadow-sm" style="background-color: #c7d2c6;">
+                                <img src="img/carillas.jpg" class="card-img-top" alt="Nuestro equipo"
+                                    style="max-height: 180px; object-fit: cover;">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title" style="color: #0a4237;">Nuestro equipo</h5>
+                                    <p class="card-text" style="color: #573e16;">Entra y conócenos</p>
+                                    <a href="html/boostrap_nuestro_equipo.html" class="btn btn-primary btn-sm">Ver
+                                        más</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Misión y visión -->
+                        <div class="col-md-6 mb-4">
+                            <div class="card h-100 shadow-sm" style="background-color: #c7d2c6;">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center" style="color: #0a4237;"><strong>Misión y
+                                            visión</strong></h5>
+                                    <p class="card-text" style="font-size: 0.95rem; color: #573e16;">
+                                        <strong>Misión:</strong><br>
+                                        Brindar restauraciones dentales de alta calidad, con precisión,
+                                        responsabilidad y un servicio cercano,
+                                        en colaboración con profesionales de la odontología.
+                                    </p>
+                                    <p class="card-text" style="font-size: 0.95rem; color: #573e16;">
+                                        <strong>Visión:</strong><br>
+                                        Ser un laboratorio dental de referencia en Temuco y el sur de Chile,
+                                        destacando por la excelencia,
+                                        la confianza y el compromiso en cada trabajo.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Productos con contenedor principal con fondo claro -->
+            <div class="card shadow-sm mb-5" style="background-color: #e8ebde;" id="productos">
+                <div class="card shadow-sm mb-4" style="background-color: #c7d2c6;">
+                    <h3 class="text-center py-3 mb-0" style="color: #0a4237;">PRODUCTOS</h3>
+                </div>
+
+                <div class="row justify-content-center align-items-stretch">
+                    <!-- Tarjeta Prótesis Fija -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm" style="background-color: #c7d2c6;">
+                            <img src="img/puente.jpg" class="card-img-top" alt="Prótesis Fija"
+                                style="max-height: 220px; object-fit: cover;">
+                            <div class="card-body">
+                                <h5 class="card-title" style="color: #0a4237;">Prótesis Fija</h5>
+                                <p class="card-text" style="color: #573e16;">Coronas, puentes y estructuras cerámicas
+                                    diseñadas para restauraciones fijas de alta precisión y estética.</p>
+                                <a href="html/fija.html" class="btn btn-primary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta Arancel -->
+                    <div class="col-md-3 mb-4 d-flex align-items-center">
+                        <div class="card w-100 shadow-sm text-center"
+                            style="background-color: #fff3cd; border: 2px solid #ffc107;">
+                            <div class="card-body py-4">
+                                <h5 class="card-title mb-2">💰 Arancel</h5>
+                                <p class="card-text mb-3">Revisa nuestros precios aquí:</p>
+                                <a href="https://drive.google.com/file/d/1IoL539o_ehSPzG1hx_zH3KCos416VN0F/view"
+                                    target="_blank" class="btn btn-warning btn-sm">Ver arancel</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta Prótesis Removible -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm" style="background-color: #c7d2c6;">
+                            <img src="img/removible" class="card-img-top" alt="Prótesis Removible"
+                                style="max-height: 220px; object-fit: cover;">
+                            <div class="card-body">
+                                <h5 class="card-title" style="color: #0a4237;">Prótesis Removible</h5>
+                                <p class="card-text" style="color: #573e16;">Prótesis parciales y totales removibles
+                                    hechas a medida, cómodas y funcionales, para restauraciones completas o parciales.
+                                </p>
+                                <a href="html/Removible.html" class="btn btn-primary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- ¿Por qué elegirnos? -->
+            <div class="card shadow-sm mb-5" style="background-color: #e8ebde;" id="Eligenos">
+                <div class="card-body">
+                    <div class="card shadow-sm mb-4" style="background-color: #c7d2c6;">
+                        <h3 class="text-center py-3 mb-0" style="color: #0a4237;">¿Por qué elegirnos?</h3>
+                    </div>
+                    <div class="row justify-content-center">
+                        <!-- Motivos -->
+                        <div class="col-md-5 col-sm-10 mb-4">
+                            <div class="card h-100 shadow-sm"
+                                style="background-color: #c7d2c6; max-height: 420px; overflow-y: auto; color: #573e16;">
+                                <div class="card-body">
+                                    <h5 class="card-title mb-3 text-center" style="color: #0a4237;">Motivos para
+                                        elegirnos</h5>
+                                    <ul class="list-unstyled card-text" style="font-size: 0.95rem;">
+                                        <li class="mb-2"><i
+                                                class="bi bi-patch-check-fill me-2 text-primary"></i><strong>Calidad
+                                                garantizada:</strong> materiales confiables y técnicas precisas.</li>
+                                        <li class="mb-2"><i
+                                                class="bi bi-people-fill me-2 text-primary"></i><strong>Colaboración
+                                                profesional:</strong> trabajo conjunto con odontólogos.</li>
+                                        <li class="mb-2"><i
+                                                class="bi bi-clock-fill me-2 text-primary"></i><strong>Responsabilidad
+                                                en los tiempos:</strong> cumplimiento puntual de plazos.</li>
+                                        <li class="mb-2"><i
+                                                class="bi bi-geo-alt-fill me-2 text-primary"></i><strong>Atención local
+                                                y cercana:</strong> servicio directo en Temuco.</li>
+                                        <li class="mb-2"><i
+                                                class="bi bi-person-heart me-2 text-primary"></i><strong>Trato
+                                                personalizado:</strong> atención cordial y adaptada al cliente.</li>
+                                        <li class="mb-2"><i
+                                                class="bi bi-bar-chart-fill me-2 text-primary"></i><strong>Crecimiento
+                                                con ética:</strong> constancia y compromiso.</li>
+                                        <li><i class="bi bi-cpu-fill me-2 text-primary"></i><strong>Expertos en
+                                                prótesis:</strong> experiencia en fija y removible.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Ubicación -->
+                        <div class="col-md-5 col-sm-10 mb-4">
+                            <div class="card h-100 shadow-sm"
+                                style="background-color: #c7d2c6; color: #573e16; max-height: 420px;">
+                                <img src="img/prueba-plano.jpg" class="card-img-top" alt="Plano del laboratorio"
+                                    style="max-height: 180px; object-fit: cover;">
+                                <div class="card-body text-center">
+                                    <h6 class="card-title" style="color: #0a4237;">Plano de referencia de nuestro
+                                        laboratorio en Temuco</h6>
+                                    <hr>
+                                    <p class="mb-0"><i
+                                            class="bi bi-geo-alt-fill me-2 text-primary"></i><strong>Ubicación:</strong>
+                                        RUDECINDO ORTEGA N° 2285</p>
+                                    <p class="mb-0"><i
+                                            class="bi bi-clock-fill me-2 text-primary"></i><strong>Horario:</strong>
+                                        10:00 AM - 06:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        </div>
+    </main>
+
+
+    <footer style="background-color: #ffffff; color: #573e16; border-top: 4px solid #d4af37;" class="pt-5">
+        <div class="container mb-4 footer-gallery">
+            <div class="row g-3 justify-content-center">
+                <div class="col-6 col-sm-4 col-md-2">
+                    <img src="/img/foto1pie.jpg" class="img-fluid rounded shadow-sm" alt="Imagen 1" />
+                </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                    <img src="/img/foto2pie.jpg" class="img-fluid rounded shadow-sm" alt="Imagen 2" />
+                </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                    <img src="/img/foto3pie.jpg" class="img-fluid rounded shadow-sm" alt="Imagen 3" />
+                </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                    <img src="https://mdbootstrap.com/img/new/fluid/city/114.jpg" class="img-fluid rounded shadow-sm"
+                        alt="Imagen 4" />
+                </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                    <img src="https://mdbootstrap.com/img/new/fluid/city/115.jpg" class="img-fluid rounded shadow-sm"
+                        alt="Imagen 5" />
+                </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                    <img src="https://mdbootstrap.com/img/new/fluid/city/116.jpg" class="img-fluid rounded shadow-sm"
+                        alt="Imagen 6" />
+                </div>
+            </div>
+        </div>
+        <div class="container text-center text-md-start py-4" id="contacto">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <img src="img/abaclogo.png" alt="Logo ABAC" class="footer-logo mb-3" />
+                    <p style="color: #573e16;">Laboratorio Dental en Temuco especializado en prótesis fijas y
+                        removibles.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-bold text-uppercase mb-3" style="color: #0a4237;">¿Cómo contactarnos?</h5>
+                    <p style="color: #573e16;"><i class="bi bi-geo-alt-fill footer-icon me-2"></i> RUDECINDO ORTEGA N°
+                        2285</p>
+                    <p style="color: #573e16;"><i class="bi bi-telephone-fill footer-icon me-2"></i> +569 84530577</p>
+                    <p style="color: #573e16;"><i class="bi bi-envelope-fill footer-icon me-2"></i>
+                        ABAC.LABDENT@GMAIL.COM</p>
+                    <p style="color: #573e16;"><i class="bi bi-clock-fill footer-icon me-2"></i> Lunes a Viernes – 10:00
+                        a 18:00 hrs</p>
+                </div>
+                <div class="col-md-4 mb-4 footer-social">
+                    <h5 class="fw-bold text-uppercase mb-3" style="color: #0a4237;">Síguenos</h5>
+                    <p>
+                        <a href="https://www.instagram.com/abac_labdental/" target="_blank"
+                            style="color: #573e16; text-decoration: none;">
+                            <i class="bi bi-instagram footer-icon me-2" style="color: #d4af37;"></i>@ABAC_LABDENTAL
+                        </a>
+                    </p>
+
+                    <p class="mt-4 fs-6 fst-italic" style="color: #b38232;">✨ ¡Será un gusto atenderte!</p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center py-3" style="background-color: #f1f1f1; color: #573e16;">
+            &copy; 2025 ABAC Dental Lab - Todos los derechos reservados.
+        </div>
+    </footer>
+</body>
+
+</html>
